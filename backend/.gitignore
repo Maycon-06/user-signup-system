@@ -1,0 +1,21 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar logs
+*.log
+logs/
+npm-debug.log*
+
+# Ignorar pasta do prisma (se não quiser versionar migrations ou client gerado, adapte conforme seu uso)
+prisma/client/
+
+# Ignorar arquivos de sistema do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorar arquivos do sistema MacOS
+.DS_Store
